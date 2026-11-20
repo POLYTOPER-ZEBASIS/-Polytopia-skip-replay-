@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>plugin</AssemblyName>
+    <RootNamespace>ReplayToPassAndPlay</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GameDir>$(MSBuildThisFileDirectory)..</GameDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(GameDir)\BepInEx\core\*.dll" />
+    <Reference Include="$(GameDir)\BepInEx\interop\*.dll" />
+  </ItemGroup>
+</Project>
