@@ -1,0 +1,9 @@
+{
+  "id": "replay_to_pass_and_play",
+  "name": "Replay to Pass & Play",
+  "version": "1.0.1",
+  "authors": ["POLYTOPER"],
+  "dependencies": [
+    { "id": "polytopia", "min": "2.18.1.16768" }
+  ]
+}
